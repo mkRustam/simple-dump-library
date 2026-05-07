@@ -23,6 +23,11 @@ public class Book {
 
     private String title;
 
+    private String author;
+
+    @Column(length = 1000)
+    private String description;
+
     @ToString.Exclude
     @ManyToOne
     @JoinColumn(name = "person_id")

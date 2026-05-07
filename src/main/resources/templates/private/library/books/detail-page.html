@@ -13,6 +13,14 @@
   <div class="book-detail card">
     <h1 th:text="${book.title}">Book Title</h1>
 
+    <p th:if="${book.author}" class="book-detail-author">by <span th:text="${book.author}"></span></p>
+
+    <div th:if="${book.genreNames != null and !book.genreNames.isEmpty()}" class="genre-tags">
+      <span th:each="gn : ${book.genreNames}" class="genre-tag" th:text="${gn}"></span>
+    </div>
+
+    <p th:if="${book.description}" class="book-detail-description" th:text="${book.description}"></p>
+
     <div class="average-rating">
       <span class="rating-label">Rating:</span>
       <span th:if="${book.averageRating != null}" class="stars">

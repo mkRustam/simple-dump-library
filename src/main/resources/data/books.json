@@ -1,0 +1,902 @@
+[
+  {
+    "author": "Margaret Atwood",
+    "title": "The Salt Orchard",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "In a drought-stricken harbor town, a botanist breeds bitter apples said to reveal hidden truths when eaten under moonlight, until rival families dispute ownership of the orchard's oldest trunk and its whispered prophecies."
+  },
+  {
+    "author": "George Orwell",
+    "title": "Minutes of the Gray Assembly",
+    "genres": [
+      "Classic",
+      "Dystopia"
+    ],
+    "description": "Clerks archive coughs and footsteps in a basement hall where speeches are edited live; one stenographer notices identical phrases recurring across years, suggesting history is copied rather than lived."
+  },
+  {
+    "author": "Jane Austen",
+    "title": "The Cousin Who Kept Bees",
+    "genres": [
+      "Classic",
+      "Romance"
+    ],
+    "description": "A shy entomologist inherits an apiary beside a contested hedge; polite walks become negotiations over honey, boundaries, and whether affection should follow practicality when bees sting everyone equally."
+  },
+  {
+    "author": "Leo Tolstoy",
+    "title": "Snow on the Third Regiment",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Officers argue theology beside frozen wagon wheels while peasants hide grain; a lost letter describing mercy arrives late, altering punishments after reputations have already hardened into legend."
+  },
+  {
+    "author": "Haruki Murakami",
+    "title": "24-Hour Vinyl Weather",
+    "genres": [
+      "Fiction",
+      "Romance"
+    ],
+    "description": "A midnight DJ receives packages of anonymous records that predict tomorrow's rain; listeners call in with dreams that overlap until two strangers realize they share the same childhood street."
+  },
+  {
+    "author": "Ursula K. Le Guin",
+    "title": "The Compass That Named Rivers",
+    "genres": [
+      "Classic",
+      "Adventure"
+    ],
+    "description": "An apprentice cartographer learns older maps rename waterways to match treaties that were never signed; a riverboat journey becomes a lesson in language shaping peace."
+  },
+  {
+    "author": "Chinua Achebe",
+    "title": "Drums for the Dry Season",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "A village debates repairing a bridge before harvest festivals; elders recall songs from before the railway arrived, and younger traders weigh profit against tradition when strangers offer steel."
+  },
+  {
+    "author": "Virginia Woolf",
+    "title": "Lighthouse Tea at Four",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Guests drift through rooms where clocks disagree; conversation loops around marriage, art, and waves until afternoon light makes memory feel simultaneous rather than sequential."
+  },
+  {
+    "author": "Kazuo Ishiguro",
+    "title": "The Butler's Quiet Atlas",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "A caretaker catalogs rooms never entered, labeling moods instead of objects; when the estate sells, buyers discover annotations describing grief more faithfully than family photographs ever did."
+  },
+  {
+    "author": "Toni Morrison",
+    "title": "Beloved Echoes in Copper",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Sisters inherit a foundry echoing with hymns; molten metal mirrors faces of ancestors while union flyers stir old quarrels about freedom, labor, and what love demands under smoke."
+  },
+  {
+    "author": "Gabriel García Márquez",
+    "title": "Rain of Lottery Leaves",
+    "genres": [
+      "Fiction",
+      "Romance"
+    ],
+    "description": "Once a year, numbered leaves fall announcing marriages arranged by chance; a skeptical pharmacist falls for someone whose leaf contradicts family expectation, testing fate against stubborn choice."
+  },
+  {
+    "author": "Emily Brontë",
+    "title": "Heathstones",
+    "genres": [
+      "Classic",
+      "Romance"
+    ],
+    "description": "On raw moor nights, siblings pledge revenge using carved stones as witnesses; passion outlasts weather until the stones themselves seem to judge who truly stayed faithful."
+  },
+  {
+    "author": "Fyodor Dostoevsky",
+    "title": "The Gambler's Confession Booth",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "In a basement chapel doubling as a casino, penitents wager souls while a narrator debates whether guilt can be purchased back at fair odds."
+  },
+  {
+    "author": "Herman Melville",
+    "title": "Charts for an Unnamed Whale",
+    "genres": [
+      "Classic",
+      "Adventure"
+    ],
+    "description": "Sailors pursue rumors of a pale leviathan drawn on scraps hidden inside Bibles; obsession competes with hunger as ice and scripture blur into one unreadable horizon."
+  },
+  {
+    "author": "Mary Shelley",
+    "title": "The Lantern Surgeon",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "After lightning strikes a traveling theater, a doctor stitches puppets that twitch with borrowed reflexes; audiences applaud until the puppets begin repeating secrets overheard backstage."
+  },
+  {
+    "author": "Jules Verne",
+    "title": "Balloon Post to Laputa's Cousin",
+    "genres": [
+      "Adventure",
+      "Fiction"
+    ],
+    "description": "Inventors race dirigibles toward floating ruins rumored to hold libraries of wind; sabotage and storms force alliances among rivals who disagree whether science should serve wonder or empire."
+  },
+  {
+    "author": "Agatha Christie",
+    "title": "Poison in the Pavilion Clock",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "During a croquet tournament, a ornamental timepiece hides alkaloids; suspects share impeccable alibis tied to tea service until Poirot notices croquet mallets heavier than regulation."
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "title": "The Adventure of the Silent Telegram",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Holmes deciphers blank telegrams held to candle flame; Watson guards a diplomat while fog disguises footsteps on cobbles near the Embankment."
+  },
+  {
+    "author": "Ray Bradbury",
+    "title": "Fireflies in the Fahrenheit Arcade",
+    "genres": [
+      "Fiction",
+      "Dystopia"
+    ],
+    "description": "Children trade forbidden stories on glowing tickets in an underground mall where nostalgia is marketed as rebellion until one arcade cabinet prints futures instead of games."
+  },
+  {
+    "author": "Aldous Huxley",
+    "title": "The Happiness Audit",
+    "genres": [
+      "Classic",
+      "Dystopia"
+    ],
+    "description": "Bureaucrats score euphoria with wearable graphs; a clerk who feels sorrow discovers illegal grief clubs operating behind mirrored pharmacies prescribing interchangeable bliss."
+  },
+  {
+    "author": "Margaret Atwood",
+    "title": "Glassroots",
+    "genres": [
+      "Fiction",
+      "Dystopia"
+    ],
+    "description": "Underground gardeners grow orchids fed by recycled speeches; roots crack surveillance pipes, turning municipal listening devices into accidental compost for forbidden pollen."
+  },
+  {
+    "author": "George Orwell",
+    "title": "Telescreen Gardening",
+    "genres": [
+      "Classic",
+      "Dystopia"
+    ],
+    "description": "A party member tends balcony herbs filmed for propaganda; seeds smuggled in bread dough sprout slogans only birds can read, confusing patrol drones trained on human voices."
+  },
+  {
+    "author": "Jane Austen",
+    "title": "An Engagement of Misprinted Cards",
+    "genres": [
+      "Classic",
+      "Romance"
+    ],
+    "description": "Calling cards swap names after a printer's error; witty corrections spark jealousy until honesty arrives via an embarrassed footman and an ink-stained coat pocket."
+  },
+  {
+    "author": "Haruki Murakami",
+    "title": "The Convenience Store Oracle",
+    "genres": [
+      "Fiction",
+      "Romance"
+    ],
+    "description": "Night shifts reveal customers buying identical pasta on nights before earthquakes; the narrator dates someone who dreams in SKU numbers tied to moon phases."
+  },
+  {
+    "author": "Leo Tolstoy",
+    "title": "The Hayloft Tribunal",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Serfs hold informal courts in barns while landlords feast; an accidental verdict frees a horse thief who later saves the estate during fire, complicating mercy."
+  },
+  {
+    "author": "Ursula K. Le Guin",
+    "title": "Ekumen Minutes: Planet of Quiet Laws",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Diplomats negotiate silence quotas to protect local ecosystems; translators struggle when words themselves disturb lichen that communicates through stillness."
+  },
+  {
+    "author": "Virginia Woolf",
+    "title": "Waves in the Wardrobe",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Characters dress for dinner while surf sounds infiltrate silk; identity ripples across mirrors until deciding what to wear feels like choosing which self survives evening."
+  },
+  {
+    "author": "Toni Morrison",
+    "title": "Copper Choir Sunday",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "A choir rehearses beside rails humming with distant trains; harmonies carry stories of migration, strikebreakers, and sisters forging elegies strong enough to bend metal."
+  },
+  {
+    "author": "Gabriel García Márquez",
+    "title": "The Colonel's Thousand Paper Boats",
+    "genres": [
+      "Classic",
+      "Romance"
+    ],
+    "description": "Paper boats carry love letters down flooded streets; aging lovers reunite where currents circle the plaza, debating whether miracles expire like newspapers."
+  },
+  {
+    "author": "Emily Brontë",
+    "title": "Blackthorn Letters",
+    "genres": [
+      "Classic",
+      "Romance"
+    ],
+    "description": "Letters wedged in thorns outlast storms; a traveler reads aloud until listeners suspect the ink describes their own sorrows with uncomfortable precision."
+  },
+  {
+    "author": "Kazuo Ishiguro",
+    "title": "The Remains of the Summer Fair",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "A retired organizer inventories stuffed animals won unfairly; nostalgia becomes gentle indictment of crowds cheering rigged games neither adults nor children truly forgot."
+  },
+  {
+    "author": "Mary Shelley",
+    "title": "Victor's Pocket Weather",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "A student traps storms in glass jars to animate clay; lightning behaves ethically until ambition borrows storms from neighboring towns without asking farmers."
+  },
+  {
+    "author": "Agatha Christie",
+    "title": "Death on the Orient Sudoku",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "First-class passengers solve puzzles printed with victims' initials; Poirot argues deduction beats numeracy until a killer exploits travelers addicted to patterns."
+  },
+  {
+    "author": "Ray Bradbury",
+    "title": "October Country Wi-Fi",
+    "genres": [
+      "Fiction",
+      "Dystopia"
+    ],
+    "description": "Autumn leaves carry cached poems banned online; children mesh nets to harvest verses before routers erase folklore with firmware updates promising safety."
+  },
+  {
+    "author": "Chinua Achebe",
+    "title": "The Broken Kola Agreement",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Two towns reset trade routes after a cracked kola nut ritual; youths educated abroad argue customs must evolve without insulting elders who remember famine."
+  },
+  {
+    "author": "Herman Melville",
+    "title": "Pequod's Ledger Reprints",
+    "genres": [
+      "Classic",
+      "Adventure"
+    ],
+    "description": "Publishers reissue voyage logs with advertisements; surviving relatives sue for dignity while readers romanticize harpoon grease as entrepreneurial grit."
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "title": "The Giant Rat of Empty Baker Street",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Holmes investigates tunnels dug beneath renovations; Watson guards bakeries from sabotage while rumors exaggerate rodent size to sell newspapers."
+  },
+  {
+    "author": "Jules Verne",
+    "title": "Twenty-Leagues Sideways",
+    "genres": [
+      "Adventure",
+      "Fiction"
+    ],
+    "description": "Submarine sideways thrusters malfunction, carving tunnels through geology textbooks deny; crew debates whether maps describe rocks or intentions."
+  },
+  {
+    "author": "Fyodor Dostoevsky",
+    "title": "Underground Takeaway Menu",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Philosophers argue souls priced like dumplings; hunger turns metaphysics into arithmetic until someone pays with a watch stopped at confession hour."
+  },
+  {
+    "author": "Aldous Huxley",
+    "title": "The Feelies Go Silent",
+    "genres": [
+      "Classic",
+      "Dystopia"
+    ],
+    "description": "Sensory theaters lose licenses when audiences crave quiet; revolution begins not with speeches but with uncomfortable boredom marketed as luxury."
+  },
+  {
+    "author": "Margaret Atwood",
+    "title": "Handmaid's Ledger, Private Edition",
+    "genres": [
+      "Fiction",
+      "Dystopia"
+    ],
+    "description": "Secret accountants track births with knitting coded in attic beams; resistance hides receipts where regimes expect embroidery."
+  },
+  {
+    "author": "George Orwell",
+    "title": "Room 102 Drafts",
+    "genres": [
+      "Classic",
+      "Dystopia"
+    ],
+    "description": "Archivists discover alternate endings to confessions; redactions form accidental poems that janitors hum while mopping corridors listeners pretend not to hear."
+  },
+  {
+    "author": "Jane Austen",
+    "title": "Pemberley Picnic Politics",
+    "genres": [
+      "Classic",
+      "Romance"
+    ],
+    "description": "Strawberries provoke debates about inheritance law; wit shields affection until rain forces honesty beneath one inadequate parasol shared by two stubborn hearts."
+  },
+  {
+    "author": "Haruki Murakami",
+    "title": "Sheep Man's Jazz Census",
+    "genres": [
+      "Fiction",
+      "Adventure"
+    ],
+    "description": "Tax collectors dressed as sheep interview insomniacs; saxophone notes map tunnels where dreams file duplicate addresses."
+  },
+  {
+    "author": "Leo Tolstoy",
+    "title": "Anna's Parallel Carriage",
+    "genres": [
+      "Classic",
+      "Romance"
+    ],
+    "description": "What-if timelines branch at train stations; compassion competes with scandal across drafts Tolstoy tears up until mercy feels harder than fate."
+  },
+  {
+    "author": "Ursula K. Le Guin",
+    "title": "The Dispossessed Almanac",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "An anarchist moon prints weather jokes serious economists hate; laughter becomes cargo traded for gravity lessons Earth refuses to teach freely."
+  },
+  {
+    "author": "Virginia Woolf",
+    "title": "Mrs. Dalloway Buys Nothing",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Clarissa considers gifts while circling shops without purchasing; city rhythm exposes desire as performance until friendship interrupts commerce."
+  },
+  {
+    "author": "Toni Morrison",
+    "title": "Sweet Home Ledger Lines",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Families redraw property lines using songs; sugar sacks hide deeds until harvest reveals whose labor sweetened whose table."
+  },
+  {
+    "author": "Gabriel García Márquez",
+    "title": "One Hundred Years of Static",
+    "genres": [
+      "Fiction",
+      "Romance"
+    ],
+    "description": "Radios prophecy births with hiss; lovers marry between stations, trusting interference as angel voices."
+  },
+  {
+    "author": "Emily Brontë",
+    "title": "Wuthering Algorithm",
+    "genres": [
+      "Classic",
+      "Romance"
+    ],
+    "description": "Ghost lovers haunt routers instead of windows; passwords whispered on moors encrypt hearts until storms reboot grief."
+  },
+  {
+    "author": "Kazuo Ishiguro",
+    "title": "Klara and the Borrowed Horizon",
+    "genres": [
+      "Fiction",
+      "Dystopia"
+    ],
+    "description": "Solar companions calculate optimism quotas for homes without skylights; kindness measured in watts reveals uncomfortable priorities."
+  },
+  {
+    "author": "Mary Shelley",
+    "title": "Frankenstein's Recipe Box",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Kitchen cards stitch organs into metaphors; dinner guests applaud until dessert asks who deserves appetite."
+  },
+  {
+    "author": "Ray Bradbury",
+    "title": "Fahrenheit Used Bookshop",
+    "genres": [
+      "Fiction",
+      "Dystopia"
+    ],
+    "description": "Firefighters moonlight selling ash-free editions; sparks symbolize literacy reclaimed through contraband bookmarks smelling like childhood basements."
+  },
+  {
+    "author": "Chinua Achebe",
+    "title": "Arrow of Smooth Words",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Orators duel at markets using proverbs; one speech prevents war by comparing rivals to brothers sharing one boat during flood season."
+  },
+  {
+    "author": "Herman Melville",
+    "title": "Typee Revisited by Drone",
+    "genres": [
+      "Adventure",
+      "Classic"
+    ],
+    "description": "Modern anthropologists film tattoos via drones; locals negotiate consent while tourists caption rituals incorrectly for viral streams."
+  },
+  {
+    "author": "Agatha Christie",
+    "title": "Murder on the Nile Cruise App",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Passengers swipe alibis like profiles; Poirot prefers overheard splash timing to geolocation tricks confessed innocently by influencers."
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "title": "The Speckled Drone Band",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Holmes traces buzz patterns in locked studies; Watson compares reptiles to rotors until venom explains deaths blamed on ventilation myths."
+  },
+  {
+    "author": "Jules Verne",
+    "title": "Around the World in Eighty Tabs",
+    "genres": [
+      "Adventure",
+      "Fiction"
+    ],
+    "description": "Balloonists navigate by browser bookmarks; international date lines glitch when crew debates whether midnight belongs to courage or scheduling."
+  },
+  {
+    "author": "Fyodor Dostoevsky",
+    "title": "The Idiot's Crypto Wallet",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Prince Myshkin inherits keys nobody trusts; compassion crashes markets softer than fraud yet hurts believers equally."
+  },
+  {
+    "author": "Aldous Huxley",
+    "title": "Brave New Garden",
+    "genres": [
+      "Classic",
+      "Dystopia"
+    ],
+    "description": "Designer embryos tend hydroponic hierarchies; tomatoes ripen by rank until a janitor breeds unauthorized sweetness."
+  },
+  {
+    "author": "Margaret Atwood",
+    "title": "The Testaments' Missing Footnote",
+    "genres": [
+      "Fiction",
+      "Dystopia"
+    ],
+    "description": "Archivists stitch marginalia from burned uniforms; threads spell resistance in seams inspectors dismiss as fashion flaws."
+  },
+  {
+    "author": "George Orwell",
+    "title": "Animal Farm IoT",
+    "genres": [
+      "Classic",
+      "Dystopia"
+    ],
+    "description": "Pigs manage feeders via sensors; slogans update firmware until chickens hack brightness settings revolt requires."
+  },
+  {
+    "author": "Jane Austen",
+    "title": "Sense and Sensor Lights",
+    "genres": [
+      "Classic",
+      "Romance"
+    ],
+    "description": "Candlelit opinions collide with motion-triggered chandeliers; sisters argue prudence versus sparkle until dusk settles arguments better than income."
+  },
+  {
+    "author": "Haruki Murakami",
+    "title": "Kafka on the Concrete Shore",
+    "genres": [
+      "Fiction",
+      "Adventure"
+    ],
+    "description": "Runaways catalog fish dreams; officers chase metaphors instead of suspects until tides erase footprints."
+  },
+  {
+    "author": "Leo Tolstoy",
+    "title": "War and Peace: Missing Volume of Bees",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Apiaries accompany armies; honey batches dated battlefields become sweetest proof historians overlook."
+  },
+  {
+    "author": "Ursula K. Le Guin",
+    "title": "The Left Hand of Summer",
+    "genres": [
+      "Classic",
+      "Adventure"
+    ],
+    "description": "Ambidextrous sailors navigate islands that swap seasons daily; diplomacy demands swapping gloves mid-handshake."
+  },
+  {
+    "author": "Virginia Woolf",
+    "title": "To the Lighthouse Battery",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Artists debate portable lights versus dawn; waves measure patience while paint dries slower than regret."
+  },
+  {
+    "author": "Toni Morrison",
+    "title": "Song of Unwired Solomon",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Flight rumors travel faster than cables; children inherit freedom maps drawn on church fans."
+  },
+  {
+    "author": "Gabriel García Márquez",
+    "title": "Chronicle of a Tape Deck Foretold",
+    "genres": [
+      "Fiction",
+      "Romance"
+    ],
+    "description": "Cassette prophecies rewind weddings; bride hesitates at hiss predicting divorce unless laughter lubricates tape heads."
+  },
+  {
+    "author": "Emily Brontë",
+    "title": "Heights of Borrowed Fire",
+    "genres": [
+      "Classic",
+      "Romance"
+    ],
+    "description": "Borrowed matches ignite reputations; lovers climb cliffs carrying storms inside coats until breath becomes weather."
+  },
+  {
+    "author": "Kazuo Ishiguro",
+    "title": "Never Let Me Grow Tomatoes",
+    "genres": [
+      "Fiction",
+      "Dystopia"
+    ],
+    "description": "Cloned carers cultivate rooftop salads under surveillance; tenderness measured by yield questions whether care can ripen without ownership."
+  },
+  {
+    "author": "Mary Shelley",
+    "title": "The Last Manuscript Prometheus",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Scientists auction ignited drafts; readers glow briefly enlightened then chilled by debt collectors dressed as clouds."
+  },
+  {
+    "author": "Ray Bradbury",
+    "title": "The Illustrated Woman's Firewall",
+    "genres": [
+      "Fiction",
+      "Dystopia"
+    ],
+    "description": "Tattoos stream banned verses when skin warms; censorship updates lag behind body heat."
+  },
+  {
+    "author": "Chinua Achebe",
+    "title": "No Longer at Ease with Algorithms",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "A scholar returns to moderate village WhatsApp feuds; elders want face-to-face fines while youths crave viral apologies."
+  },
+  {
+    "author": "Herman Melville",
+    "title": "Bartleby the Scrivener's Standing Desk",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Coworkers envy refusal energy; office plants inherit passive resistance until HR debates photosynthesis policies."
+  },
+  {
+    "author": "Agatha Christie",
+    "title": "The Mysterious Affair at Styles Hybrid",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Electric lights flicker near arsenic; Hastings trips over charging cables while Poirot praises intuition grounded in candle shadows."
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "title": "Valley of Fear VR",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Holmes critiques immersive fright; coded messages hide inside calibration errors murderers exploit for alibis."
+  },
+  {
+    "author": "Jules Verne",
+    "title": "Journey to the Center of the Checkout Line",
+    "genres": [
+      "Adventure",
+      "Fiction"
+    ],
+    "description": "Adventurers descend escalators mistaken for caves; magma turns out to be melted loyalty rewards."
+  },
+  {
+    "author": "Fyodor Dostoevsky",
+    "title": "Demons of the Group Chat",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Radicals radicalize memes; priests mute threads yet shame echoes louder than notifications."
+  },
+  {
+    "author": "Aldous Huxley",
+    "title": "Island of Noise-Canceling Birds",
+    "genres": [
+      "Classic",
+      "Dystopia"
+    ],
+    "description": "Utopian ornithologists breed silence; paradise feels vacant until birds resume imperfect songs teaching discomfort."
+  },
+  {
+    "author": "Margaret Atwood",
+    "title": "Oryx and Crake's Farmers Market",
+    "genres": [
+      "Fiction",
+      "Dystopia"
+    ],
+    "description": "Synthetic meats bargain beside heirloom guilt; shoppers trade nostalgia coupons until floods rearrange stalls overnight."
+  },
+  {
+    "author": "George Orwell",
+    "title": "Coming Up for Air Quality Index",
+    "genres": [
+      "Classic",
+      "Dystopia"
+    ],
+    "description": "George Bowling measures particulates nostalgically; childhood rivers become datasets nostalgia cannot legally inhale."
+  },
+  {
+    "author": "Jane Austen",
+    "title": "Emma's Matchmaking API",
+    "genres": [
+      "Classic",
+      "Romance"
+    ],
+    "description": "Algorithms pair villagers; Emma learns humility when servers rank Mr. Knightley higher than her pride appreciates."
+  },
+  {
+    "author": "Haruki Murakami",
+    "title": "Wind-Up Bird Chronicle Zero",
+    "genres": [
+      "Fiction",
+      "Romance"
+    ],
+    "description": "Missing wives correspond via subway ads; well dreams leak into marriage counseling sessions billed hourly."
+  },
+  {
+    "author": "Leo Tolstoy",
+    "title": "Resurrection Receipts",
+    "genres": [
+      "Classic",
+      "Romance"
+    ],
+    "description": "Nekhlyudov tracks penance through orphan logistics; love demands logistics harsher than courts."
+  },
+  {
+    "author": "Ursula K. Le Guin",
+    "title": "The Word for World Is Borrowed",
+    "genres": [
+      "Classic",
+      "Adventure"
+    ],
+    "description": "Colonists learn indigenous nouns rename forests slowly; rushing translation seeds ecological betrayal."
+  },
+  {
+    "author": "Virginia Woolf",
+    "title": "Orlando's Upload Queue",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Immortal protagonist waits centuries for cloud sync; gender flux feels smoother than buffering icons."
+  },
+  {
+    "author": "Toni Morrison",
+    "title": "Tar Baby Syrup Works",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Maple conflicts mirror racial metaphors sticky enough to trap commerce pretending innocence."
+  },
+  {
+    "author": "Gabriel García Márquez",
+    "title": "Love in the Time of Thermal Paper",
+    "genres": [
+      "Fiction",
+      "Romance"
+    ],
+    "description": "Fading receipts archive vows; lovers transcribe fading ink nightly until pharmacy printers sponsor anniversaries."
+  },
+  {
+    "author": "Emily Brontë",
+    "title": "Wuthering NFTs",
+    "genres": [
+      "Classic",
+      "Romance"
+    ],
+    "description": "Storm deeds mint on blockchain; ghosts authenticate sorrow until electricity bills haunt heirs."
+  },
+  {
+    "author": "Kazuo Ishiguro",
+    "title": "The Buried Giant VR Therapy",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Couples revisit fog as immersive grief tech; forgetting marketed as healing tastes metallic."
+  },
+  {
+    "author": "Mary Shelley",
+    "title": "Mathilda's Firewall Confession",
+    "genres": [
+      "Classic",
+      "Romance"
+    ],
+    "description": "Private journals encrypt trauma; readers brute-force empathy until servers overheat."
+  },
+  {
+    "author": "Ray Bradbury",
+    "title": "Dandelion Wine Cooler Summer",
+    "genres": [
+      "Fiction",
+      "Romance"
+    ],
+    "description": "Grandma bottles thunderstorms responsibly; teens sip nostalgia responsibly until curfew tastes like cinnamon."
+  },
+  {
+    "author": "Chinua Achebe",
+    "title": "Things Fall Apart Again Online",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Tradition argues with broadband repair crews; chi measured in latency divides elders from gamers."
+  },
+  {
+    "author": "Herman Melville",
+    "title": "Confidence-Man on Subscription",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Riverboat hustlers sell recurring virtue; passengers unsubscribe yet guilt auto-renews."
+  },
+  {
+    "author": "Agatha Christie",
+    "title": "Cards on the Table Tennis",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Murder disguised as tournament injury; Poirot studies paddle spin until motive arcs like a lob."
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "title": "His Last Bow String",
+    "genres": [
+      "Classic",
+      "Adventure"
+    ],
+    "description": "Aging Holmes trusts violin tension metaphors; espionage ends with a concert encore nobody applauds on time."
+  },
+  {
+    "author": "Jules Verne",
+    "title": "From the Earth to the Moon Pool",
+    "genres": [
+      "Adventure",
+      "Fiction"
+    ],
+    "description": "Astronauts train buoyancy beside bets; investors confuse tidal charts with launch trajectories."
+  },
+  {
+    "author": "Fyodor Dostoevsky",
+    "title": "Notes from the Underground Wi-Fi",
+    "genres": [
+      "Classic",
+      "Dystopia"
+    ],
+    "description": "Spiteful narrator refuses stronger signals; freedom defined as buffering forever on principle."
+  },
+  {
+    "author": "Aldous Huxley",
+    "title": "Point Counter Pointillism",
+    "genres": [
+      "Classic",
+      "Fiction"
+    ],
+    "description": "Intellectuals debate art while portraits fragment into pixels; arguments remain sharp though faces dissolve."
+  }
+]

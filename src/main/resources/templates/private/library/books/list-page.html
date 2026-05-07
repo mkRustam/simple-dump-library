@@ -38,6 +38,8 @@
         <a th:href="@{'/library/book/' + ${book.id}}" th:text="${book.title}">Book Title</a>
       </h3>
 
+      <p th:if="${book.author}" class="book-card-author" th:text="${book.author}"></p>
+
       <div th:if="${book.genreNames != null and !book.genreNames.isEmpty()}" class="genre-tags">
         <span th:each="gn : ${book.genreNames}" class="genre-tag" th:text="${gn}"></span>
       </div>

@@ -16,6 +16,10 @@ public class BookDto {
 
     private String title;
 
+    private String author;
+
+    private String description;
+
     private Double averageRating;
 
     private Long holderId;
@@ -34,6 +38,8 @@ public class BookDto {
         BookDto dto = new BookDto();
         dto.setId(book.getId());
         dto.setTitle(book.getTitle());
+        dto.setAuthor(book.getAuthor());
+        dto.setDescription(book.getDescription());
         dto.setGenreNames(genres);
         return dto;
     }
