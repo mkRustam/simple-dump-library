@@ -11,6 +11,9 @@
 
 <h2>Book List</h2>
 
+<!-- Error message -->
+<div th:if="${error}" class="error-message" th:text="${error}"></div>
+
 <table>
     <thead>
     <tr>
@@ -28,6 +31,7 @@
                 <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
                 <button type="submit" class="action-button">Take</button>
             </form>
+            <a th:href="@{'/library/book/' + ${book.id} + '/reviews'}" class="reviews-link">Reviews</a>
         </td>
     </tr>
     </tbody>
