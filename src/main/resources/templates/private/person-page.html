@@ -21,7 +21,7 @@
     <tbody>
     <tr th:each="book : ${books}">
       <td th:text="${book.id}"></td>
-      <td th:text="${book.title}"></td>
+      <td><a th:href="@{'/library/book/' + ${book.id}}" th:text="${book.title}"></a></td>
       <td>
         <form th:action="@{'/person/unhold/' + ${book.id}}" method="post" style="display:inline">
           <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}"/>

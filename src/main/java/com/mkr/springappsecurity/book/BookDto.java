@@ -15,7 +15,11 @@ public class BookDto {
 
     private Double averageRating;
 
+    private Long holderId;
+
+    private String holderName;
+
     public static BookDto toDto(Book book) {
-        return new BookDto(book.getId(), book.getTitle(), null);
+        return new BookDto(book.getId(), book.getTitle(), null, null, null);
     }
 }

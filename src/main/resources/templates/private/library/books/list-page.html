@@ -16,7 +16,9 @@
 
   <div class="book-grid">
     <div th:each="book : ${books}" class="book-card card">
-      <h3 class="book-card-title" th:text="${book.title}">Book Title</h3>
+      <h3 class="book-card-title">
+        <a th:href="@{'/library/book/' + ${book.id}}" th:text="${book.title}">Book Title</a>
+      </h3>
 
       <div class="book-card-rating">
         <span th:if="${book.averageRating != null}" class="stars">

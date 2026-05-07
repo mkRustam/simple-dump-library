@@ -45,6 +45,19 @@ public class BookService {
             .toList();
     }
 
+    public BookDto findById(Long id) {
+        log.info("Find Book by id {}", id);
+        Book book = bookRepository.findById(id)
+            .orElseThrow(() -> new NoSuchElementException("Book with id " + id + " not found"));
+        BookDto dto = BookDto.toDto(book);
+        dto.setAverageRating(reviewService.getAverageRating(id));
+        if (book.getHolder() != null) {
+            dto.setHolderId(book.getHolder().getId());
+            dto.setHolderName(book.getHolder().getName());
+        }
+        return dto;
+    }
+
     public List<BookDto> findByHolder(Long holderId) {
         log.info("Find Books by holder {}", holderId);
         return bookRepository

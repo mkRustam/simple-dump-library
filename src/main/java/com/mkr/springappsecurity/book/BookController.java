@@ -27,6 +27,19 @@ public class BookController {
         return "private/library/books/list-page";
     }
 
+    @GetMapping("/book/{id}")
+    public String bookDetail(
+        @PathVariable("id") Long bookId,
+        @AuthenticationPrincipal UserDetails userDetails,
+        Model model
+    ) {
+        BookDto book = bookService.findById(bookId);
+        Long currentPersonId = authManagerUtil.getPersonId(userDetails);
+        model.addAttribute("book", book);
+        model.addAttribute("currentPersonId", currentPersonId);
+        return "private/library/books/detail-page";
+    }
+
     @PostMapping("/hold/{id}")
     public String hold(
         @PathVariable("id") Long bookId,

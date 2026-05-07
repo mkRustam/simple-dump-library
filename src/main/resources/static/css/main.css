@@ -381,6 +381,43 @@ textarea {
   margin-top: 0.5rem;
 }
 
+/* === Book Detail === */
+.book-detail {
+  max-width: 40rem;
+}
+
+.book-detail h1 {
+  margin-bottom: 1rem;
+}
+
+.book-detail-status {
+  margin-bottom: 1.5rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.3rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.badge-available {
+  background: #f0fdf4;
+  color: var(--success);
+}
+
+.badge-unavailable {
+  background: #f8fafc;
+  color: var(--text-muted);
+}
+
+.book-detail-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
 /* === Book Grid (Library) === */
 .book-grid {
   display: grid;
