@@ -6,6 +6,9 @@ import com.mkr.springappsecurity.person.PersonRepository;
 import com.mkr.springappsecurity.review.ReviewService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -43,6 +46,21 @@ public class BookService {
                 return dto;
             })
             .toList();
+    }
+
+    private static final int PAGE_SIZE = 9;
+
+    @Transactional(readOnly = true)
+    public Page<BookDto> searchAvailable(String title, Long genreId, int page) {
+        log.info("Search available books: title='{}', genreId={}, page={}", title, genreId, page);
+        PageRequest pageable = PageRequest.of(page, PAGE_SIZE, Sort.by("title").ascending());
+        Page<Book> bookPage = bookRepository.findAvailableByFilter(
+                title == null ? "" : title, genreId, pageable);
+        return bookPage.map(book -> {
+            BookDto dto = BookDto.toDto(book);
+            dto.setAverageRating(reviewService.getAverageRating(book.getId()));
+            return dto;
+        });
     }
 
     public BookDto findById(Long id) {

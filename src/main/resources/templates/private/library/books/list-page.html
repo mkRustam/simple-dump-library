@@ -14,11 +14,33 @@
 
   <div th:if="${error}" class="alert-error" th:text="${error}"></div>
 
+  <form th:action="@{/library}" method="get" class="search-form">
+    <div class="search-input-group">
+      <input type="text" name="title" th:value="${title}" placeholder="Search by title..." />
+    </div>
+    <div class="search-select-group">
+      <select name="genreId">
+        <option value="">All genres</option>
+        <option th:each="genre : ${genres}"
+                th:value="${genre.id}"
+                th:text="${genre.name}"
+                th:selected="${selectedGenreId != null and selectedGenreId == genre.id}">
+        </option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+    <a th:href="@{/library}" class="btn btn-secondary">Reset</a>
+  </form>
+
   <div class="book-grid">
     <div th:each="book : ${books}" class="book-card card">
       <h3 class="book-card-title">
         <a th:href="@{'/library/book/' + ${book.id}}" th:text="${book.title}">Book Title</a>
       </h3>
+
+      <div th:if="${book.genreNames != null and !book.genreNames.isEmpty()}" class="genre-tags">
+        <span th:each="gn : ${book.genreNames}" class="genre-tag" th:text="${gn}"></span>
+      </div>
 
       <div class="book-card-rating">
         <span th:if="${book.averageRating != null}" class="stars">
@@ -42,6 +64,22 @@
   <div th:if="${#lists.isEmpty(books)}" class="no-reviews">
     <p>No books available right now.</p>
   </div>
+
+  <nav th:if="${totalPages > 1}" class="pagination">
+    <a th:if="${currentPage > 0}"
+       th:href="@{/library(title=${title}, genreId=${selectedGenreId}, page=${currentPage - 1})}"
+       class="page-link">&laquo; Prev</a>
+
+    <th:block th:each="i : ${#numbers.sequence(0, totalPages - 1)}">
+      <a th:href="@{/library(title=${title}, genreId=${selectedGenreId}, page=${i})}"
+         th:text="${i + 1}"
+         th:classappend="${i == currentPage} ? 'page-link active' : 'page-link'"></a>
+    </th:block>
+
+    <a th:if="${currentPage < totalPages - 1}"
+       th:href="@{/library(title=${title}, genreId=${selectedGenreId}, page=${currentPage + 1})}"
+       class="page-link">Next &raquo;</a>
+  </nav>
 
 </div>
 </body>

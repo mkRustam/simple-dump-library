@@ -4,6 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Collections;
+import java.util.List;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
@@ -19,7 +22,19 @@ public class BookDto {
 
     private String holderName;
 
+    private List<String> genreNames;
+
     public static BookDto toDto(Book book) {
-        return new BookDto(book.getId(), book.getTitle(), null, null, null);
+        List<String> genres = book.getGenres() == null
+                ? Collections.emptyList()
+                : book.getGenres().stream()
+                    .map(g -> g.getName())
+                    .sorted()
+                    .toList();
+        BookDto dto = new BookDto();
+        dto.setId(book.getId());
+        dto.setTitle(book.getTitle());
+        dto.setGenreNames(genres);
+        return dto;
     }
 }
