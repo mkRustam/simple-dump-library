@@ -1,0 +1,431 @@
+/* === Design Tokens === */
+:root {
+  --bg:         #f8fafc;
+  --surface:    #ffffff;
+  --text:       #1e293b;
+  --text-muted: #64748b;
+  --accent:     #2563eb;
+  --accent-hover: #1d4ed8;
+  --border:     #e2e8f0;
+  --danger:     #dc2626;
+  --danger-hover: #b91c1c;
+  --success:    #16a34a;
+  --radius-sm:  0.375rem;
+  --radius:     0.5rem;
+  --shadow:     0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+/* === Reset & Typography === */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.953rem;
+  line-height: 1.2;
+  margin: 0 0 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.3;
+  margin: 0 0 1rem;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* === Navbar === */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 0.75rem 1.5rem;
+}
+
+.navbar-brand {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  text-decoration: none;
+  color: var(--accent);
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-links a {
+  font-weight: 500;
+  color: var(--text);
+}
+
+.navbar-links a:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+/* === Page Wrapper === */
+.page-wrapper {
+  max-width: 75rem;
+  margin-inline: auto;
+  padding: 2rem 1.5rem;
+}
+
+/* === Buttons === */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  transition: filter 0.15s ease;
+}
+
+.btn:hover {
+  text-decoration: none;
+  filter: brightness(0.9);
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+}
+
+.btn-secondary:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+.btn-danger {
+  background: var(--danger);
+  color: #fff;
+}
+
+.btn-sm {
+  padding: 0.3rem 0.75rem;
+  font-size: 0.8rem;
+}
+
+/* === Table === */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--surface);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+th {
+  background: var(--surface);
+  font-weight: 600;
+  border-bottom: 2px solid var(--border);
+}
+
+td {
+  border-bottom: 1px solid var(--border);
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tbody tr:hover {
+  background: #f1f5f9;
+}
+
+td .btn + .btn,
+td .btn + a,
+td a + .btn {
+  margin-left: 0.5rem;
+}
+
+/* === Forms === */
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  padding: 0 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 1rem;
+  font-family: inherit;
+  color: var(--text);
+  background: var(--surface);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: -1px;
+  border-color: var(--accent);
+}
+
+textarea {
+  height: auto;
+  padding: 0.75rem;
+  resize: vertical;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+/* === Card === */
+.card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+}
+
+/* === Alerts === */
+.alert-error {
+  background: #fef2f2;
+  border-left: 4px solid var(--danger);
+  color: var(--danger);
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-sm);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.alert-success {
+  background: #f0fdf4;
+  border-left: 4px solid var(--success);
+  color: var(--success);
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-sm);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+/* === Back Link === */
+.back-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.back-link:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+/* === Login Page === */
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-card {
+  width: 24rem;
+  max-width: 100%;
+}
+
+.login-card h2 {
+  text-align: center;
+  margin: 0 0 1.5rem;
+  font-size: 1.563rem;
+}
+
+.login-card label {
+  margin-top: 1rem;
+}
+
+.login-card input[type="text"],
+.login-card input[type="password"] {
+  margin-top: 0.25rem;
+}
+
+.login-card .footer-text {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+/* === Star Ratings === */
+.star {
+  color: var(--border);
+  font-size: 1.25rem;
+}
+
+.star.filled {
+  color: #f59e0b;
+}
+
+/* === Reviews === */
+.average-rating {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.rating-label {
+  font-weight: 600;
+}
+
+.rating-value {
+  font-weight: 700;
+}
+
+.review-form {
+  margin-bottom: 2rem;
+}
+
+.review-card {
+  background: var(--surface);
+  padding: 1.25rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  margin-bottom: 1rem;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.review-author {
+  font-weight: 700;
+}
+
+.review-stars .star {
+  font-size: 1rem;
+}
+
+.review-date {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  margin-left: auto;
+}
+
+.review-text {
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.review-actions {
+  margin-top: 0.75rem;
+}
+
+.no-reviews {
+  color: var(--text-muted);
+  font-style: italic;
+  padding: 1rem 0;
+}
+
+.reviews-list {
+  margin-top: 0.5rem;
+}
+
+/* === Book Grid (Library) === */
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: 1.25rem;
+}
+
+.book-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.book-card-title {
+  margin: 0 0 0.75rem;
+  font-size: 1.125rem;
+  line-height: 1.3;
+}
+
+.book-card-rating {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.book-card-rating .stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.book-card-rating .rating-value {
+  margin-left: 0.4rem;
+}
+
+.book-card-rating .no-rating {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+}
+
+.book-card-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: auto;
+}
+
+.book-card-actions .btn {
+  flex: 1;
+}

@@ -13,7 +13,9 @@ public class BookDto {
 
     private String title;
 
+    private Double averageRating;
+
     public static BookDto toDto(Book book) {
-        return new BookDto(book.getId(), book.getTitle());
+        return new BookDto(book.getId(), book.getTitle(), null);
     }
 }

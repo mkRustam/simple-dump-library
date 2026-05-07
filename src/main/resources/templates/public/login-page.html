@@ -1,32 +1,32 @@
 <!DOCTYPE html>
-<html lang="ru" xmlns:th="http://www.thymeleaf.org">
+<html lang="ru"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout}">
 <head>
-  <link rel="stylesheet" th:href="@{/css/public/login-page-style.css}" />
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Форма авторизации</title>
+  <title>Авторизация</title>
 </head>
 <body>
-<form class="auth-form" th:action="@{/login}" method="post" autocomplete="off">
-  <h2>Авторизация</h2>
+<div layout:fragment="content" class="login-wrapper">
+  <form class="card login-card" th:action="@{/login}" method="post" autocomplete="off">
+    <h2>Авторизация</h2>
 
-  <!-- Сообщение об ошибке при неудачной авторизации -->
-  <p th:if="${param.error}" class="message error">
-    Неверное имя пользователя или пароль!
-  </p>
-  <!-- Сообщение при успешном выходе из системы -->
-  <p th:if="${param.logout}" class="message logout">
-    Вы успешно вышли из системы.
-  </p>
+    <p th:if="${param.error}" class="alert-error">
+      Неверное имя пользователя или пароль!
+    </p>
+    <p th:if="${param.logout}" class="alert-success">
+      Вы успешно вышли из системы.
+    </p>
 
-  <label for="username">Логин</label>
-  <input type="text" id="username" name="username" placeholder="Введите логин" required autofocus="autofocus" maxlength="50" />
+    <label for="username">Логин</label>
+    <input type="text" id="username" name="username" placeholder="Введите логин" required autofocus="autofocus" maxlength="50"/>
 
-  <label for="password">Пароль</label>
-  <input type="password" id="password" name="password" placeholder="Введите пароль" required minlength="6" />
+    <label for="password">Пароль</label>
+    <input type="password" id="password" name="password" placeholder="Введите пароль" required minlength="6"/>
 
-  <button type="submit">Войти</button>
-  <p class="footer-text">Введите ваши данные для входа</p>
-</form>
+    <button type="submit" class="btn btn-primary" style="width:100%; margin-top:1rem">Войти</button>
+    <p class="footer-text">Введите ваши данные для входа</p>
+  </form>
+</div>
 </body>
 </html>

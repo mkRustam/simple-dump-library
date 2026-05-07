@@ -3,6 +3,7 @@ package com.mkr.springappsecurity.book;
 import com.mkr.springappsecurity.book.exception.BookAlreadyExistsException;
 import com.mkr.springappsecurity.person.Person;
 import com.mkr.springappsecurity.person.PersonRepository;
+import com.mkr.springappsecurity.review.ReviewService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -19,6 +20,7 @@ public class BookService {
 
     private final PersonRepository personRepository;
     private final BookRepository bookRepository;
+    private final ReviewService reviewService;
 
     public void addBook(Book book) throws BookAlreadyExistsException {
         log.info("Checking book {}", book);
@@ -35,7 +37,11 @@ public class BookService {
         return bookRepository
             .findAllByHolderIsNull()
             .stream()
-            .map(BookDto::toDto)
+            .map(book -> {
+                BookDto dto = BookDto.toDto(book);
+                dto.setAverageRating(reviewService.getAverageRating(book.getId()));
+                return dto;
+            })
             .toList();
     }
 
