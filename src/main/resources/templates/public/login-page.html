@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <link rel="stylesheet" th:href="@{/css/public/login-page-style.css}" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Форма авторизации</title>
+</head>
+<body>
+<form class="auth-form" th:action="@{/login}" method="post" autocomplete="off">
+  <h2>Авторизация</h2>
+
+  <!-- Сообщение об ошибке при неудачной авторизации -->
+  <p th:if="${param.error}" class="message error">
+    Неверное имя пользователя или пароль!
+  </p>
+  <!-- Сообщение при успешном выходе из системы -->
+  <p th:if="${param.logout}" class="message logout">
+    Вы успешно вышли из системы.
+  </p>
+
+  <label for="username">Логин</label>
+  <input type="text" id="username" name="username" placeholder="Введите логин" required autofocus="autofocus" maxlength="50" />
+
+  <label for="password">Пароль</label>
+  <input type="password" id="password" name="password" placeholder="Введите пароль" required minlength="6" />
+
+  <button type="submit">Войти</button>
+  <p class="footer-text">Введите ваши данные для входа</p>
+</form>
+</body>
+</html>
